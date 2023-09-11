@@ -1,6 +1,5 @@
 function calculateAverage(numbers) {
     var sum = 0;
-    //'<=' ist falsch aufgrund der Struktur einer Liste, denn <= geht bis zur 5 Stelle, aber Index fängt bei 0 an, d.h. eigentliche Länge = 0 bis 4
     for (var i = 0; i < numbers.length; i++) {
     sum += numbers[i];
     console.log(sum);
