@@ -1,7 +1,6 @@
 <?php
 function reverseString($str) {
 $reversed = '';
-//$i muss die Länge vom $str übergeben werden und die for-Schleife muss runterzählen
 for ($i = strlen($str); $i >= 0; $i--) {
 $reversed .= $str[$i];
 }
