@@ -4,12 +4,10 @@ $sum = 0;
 $count = 0;
 foreach ($numbers as $number) {
 $sum += $number;
-//count speichert die Menge der Zahlen, nicht den Inhalt
 $count++;
 echo($count);
 echo(',');
 }
-//sum muss durch count geteilt werden, nicht multipliziert
 $average = $sum / $count;
 return $average;
 }
